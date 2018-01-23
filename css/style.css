@@ -671,13 +671,13 @@ section.test .carousel-control.left,section.test .carousel-control.right {
 section.test .test-details {
     padding: 0 30px;
 } 
-section.test .test-w3ls {
+section.test .current-init-section {
     background-color: #F7F7F7;
     padding: 25px 30px;
-    height: 350px;
+    height: 400px;
     position: relative;
 }
-section.test .test-w3ls:after {
+section.test .current-init-section:after {
     content: '';
     position: absolute;
     bottom: -14px;
@@ -691,14 +691,17 @@ section.test .test-w3ls:after {
     -o-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
 }
-section.test .test-w3ls h5 {
+section.test .current-init-section a {
+    float: right;
+}
+section.test .current-init-section h5 {
     font-size: 20px;
     font-weight: normal;
     padding-bottom: 10px;
     text-transform: capitalize;
     color: #c94e50;
 }
-section.test .test-w3ls p.test-p1 {
+section.test .current-init-section p.test-p1 {
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
@@ -1125,7 +1128,7 @@ section.work .b-wrapper {
 section.test {
 	padding:0 0 100px;
 }
-section.test .test-w3ls p.test-p1 {
+section.test .current-init-section p.test-p1 {
     font-size: 14px;
 }
 section.test .test-agile p.test-p2 {
@@ -1656,10 +1659,10 @@ section.work .nav-tabs > li:nth-child(1):after, section.work .nav-tabs > li:nth-
 section.work i.fa.fa-search-plus {
     padding-top: 70px;
 }
-section.test .test-w3ls {
+section.test .current-init-section {
 	height:230px;
 }
-section.test .test-w3ls:after {
+section.test .current-init-section:after {
 	left:45px;
 }
 section.subs .subscribe input#email {
@@ -1731,7 +1734,7 @@ section.work p.text-center {
 section.work .nav-tabs > li > a {
     margin-right: -4px;
 }
-section.test .test-w3ls p.test-p1 {
+section.test .current-init-section p.test-p1 {
     font-size: 13px;
 }
 section.work i.fa.fa-search-plus {
@@ -1868,7 +1871,10 @@ section.work .cl-effect-4 li a::after {
 section.work i.fa.fa-search-plus {
     padding-top: 35px;
 }
-section.test .test-w3ls {
+section.test .current-init-section {
+    height: 265px;
+}
+section.test .current-init-section {
     height: 265px;
 }
 .col-lg-4.col-md-4.col-sm-4.col-xs-4.test-detail1 {
@@ -1914,7 +1920,7 @@ section.service-w3ls p.text-center, section.work p.text-center, section.test p.t
     line-height: 13px;
 	padding-bottom:25px;
 }
-section.service-w3ls p.serv-p1 {
+section.servicfe-w3ls p.serv-p1 {
     font-size: 13px;
     line-height: 28px;
 }
@@ -1939,4 +1945,20 @@ ul.top-contacts li {
     margin-right:0px; 
     display: block;
 }
+
+
+body a.see-more-button {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font: 23px Arial, sans-serif;
+    padding: 0px 1px 1px 1px;
+}
+
+
 }
