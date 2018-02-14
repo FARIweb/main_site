@@ -48,6 +48,27 @@ img {
 	-ms-transition:0.5s all;
 }
 
+img.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+p.phil_text {
+    font-size: 15px;
+    text-indent: 3mm;
+    line-height: 25px;
+    padding: 10px;
+}
+
+div.phil_section {
+    background-color: #F7F7F7;
+    padding: 25px 30px;
+}
+
+p.signature {
+    float: right;
+}
+
 .navbar-fixed-top {
 height: 100px;
 min-height: 100px;
